@@ -2,11 +2,11 @@ import React from 'react';
 import Logo from '../../assets/png/prism_transparent.png';
 import styles from './footer.module.scss';
 
-export default function(props: any) {
+export default function Footer(props: any) {
     return (
         <div className={styles.footer}>
             <div className={styles.logo}>
-                <img src={Logo}/>
+                <img alt="logo" src={Logo}/>
             </div>
 
             <div className={styles.container}>

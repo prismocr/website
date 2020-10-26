@@ -3,7 +3,7 @@ import Button from '../../components/Button';
 import styles from './landing.module.scss';
 import {ReactComponent as Illustration} from '../../assets/svg/search.svg'; 
 
-export default function(props: any) {
+export default function Landing(props: any) {
     return (
         <div className={styles.landing}>
             <div className={styles.container}>

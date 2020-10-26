@@ -3,10 +3,10 @@ import styles from './navbar.module.scss';
 import Logo from '../../assets/png/logo.png';
 import Button from '../Button';
 
-export default function(props: any) {
+export default function Navbar(props: any) {
     return (
         <div className={styles.navbar}>
-           <img src={Logo}/>
+           <img alt="logo" src={Logo}/>
 
            <ul>
                <li>

@@ -6,7 +6,7 @@ import {ReactComponent as Rocket} from '../../assets/svg/rocket.svg';
 import {ReactComponent as Target} from '../../assets/svg/target.svg';
 
 
-export default function(props: any) {
+export default function Features(props: any) {
     return (
         <div className={styles.features}>
             <h1>Features</h1>
