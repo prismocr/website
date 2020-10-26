@@ -1,0 +1,40 @@
+.footer {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+
+    .logo {
+        margin-left: 160px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 80px;
+            height: auto;
+        }
+    }
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #0e0e0e;
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        h3 {
+            color: white;
+            font-weight: 700;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: #c1c1c1;
+                }
+            }
+        }
+    }
+}
