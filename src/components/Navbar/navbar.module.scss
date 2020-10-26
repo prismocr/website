@@ -1,0 +1,24 @@
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 80px;
+        margin-right: 50px;
+    }
+
+    ul {
+        list-style: none;    
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        li {
+            float: right;
+            margin-right: 50px;
+        }
+    }
+}
