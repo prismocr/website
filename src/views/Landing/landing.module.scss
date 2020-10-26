@@ -6,6 +6,10 @@
     align-items: center;
     margin-top: 25px;
 
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
+
     .container {
         max-width: 600px;
         h1 {
@@ -21,6 +25,7 @@
     }
 
     .illustration {
+        max-width: 90%;
         display: flex;
         svg {
             width: 600px;
