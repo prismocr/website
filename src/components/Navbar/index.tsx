@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './navbar.module.scss';
 import Logo from '../../assets/png/logo.png';
-import Button from '../Button';
 
 export default function Navbar(props: any) {
     return (
@@ -13,17 +12,14 @@ export default function Navbar(props: any) {
                    Home
                </li>
                <li>
-                   Project
-               </li>
-               <li>
-                   Team
+                   Features
                </li>
                <li>
                    About
                </li>
            </ul>
 
-            <Button title={"Download"}/>
+            <a className="btn" target="_blank" rel="noreferrer" href="https://github.com/prismocr/ocr">Download</a>
            
         </div>
     )
