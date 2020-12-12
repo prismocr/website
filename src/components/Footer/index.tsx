@@ -34,10 +34,10 @@ export default function Footer(props: any) {
                             <a href="https://github.com/aureleoules">Aurèle Oulès</a>
                         </li>
                         <li>
-                            <a href="https://github.com/Obeeron">Brice Parent</a>
+                            <a href="https://github.com/Naexys">Brice Parent</a>
                         </li>
                         <li>
-                            <a href="https://github.com/Naexys">Charles Trodet</a>
+                            <a href="https://github.com/Obeeron">Charles Trodet</a>
                         </li>
                     </ul>
                 </div>
