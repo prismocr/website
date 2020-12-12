@@ -34,7 +34,7 @@ export default function Footer(props: any) {
                             <a href="https://github.com/aureleoules">Aurèle Oulès</a>
                         </li>
                         <li>
-                            <a href="https://github.com/Naexys">Brice Parent</a>
+                            <a href="https://github.com/Flowtter">Brice Parent</a>
                         </li>
                         <li>
                             <a href="https://github.com/Obeeron">Charles Trodet</a>
